@@ -4,12 +4,23 @@ import Todo from '../pages/todo/index.vue'
 import Profile from '../pages/profile/index.vue'
 
 
-const router = [
-{ path: '/login', component: Login},
+const routes = [
+{ path: '/login', 
+  name: 'Login',
+  component: Login},
 
-{path: '/todo', component: Todo},
+{path: '/todo', 
+ name: 'Todo',
+ component: Todo},
 
-{path: '/profile',component: Profile }
+{path: '/profile',
+ name: 'Profile',
+ component: Profile }
 ]
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes
+});
 
 export default router;  
