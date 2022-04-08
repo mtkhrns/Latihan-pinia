@@ -15,9 +15,4 @@ const routes = [
 component: Profile }
 ]
 
-const router = createRouter({
-  history: createWebHistory(),
-  routes
-})
-
-  export default router;  
+  export default routes;  
