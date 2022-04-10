@@ -18,6 +18,9 @@ import { RouterLink, RouterView } from "vue-router";
           <router-link class="nav-link" to="/todo"> Todo </router-link>
            </li>
         <li class="nav-item">
+          <router-link class="nav-link" to="/user"> User </router-link>
+           </li>
+        <li class="nav-item">
           <router-link class="nav-link" to="/login"> Login </router-link>
            </li>
           </ul>

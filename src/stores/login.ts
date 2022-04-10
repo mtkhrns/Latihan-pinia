@@ -19,10 +19,10 @@ export const useAuthStore = defineStore({
   getters: {},
   actions: {
     login(email: string, password: string) {
-      if (email === 'dika@dika.com' && password === 'dika') {
+      if (email === 'rahmimutia@mut.com' && password === 'admin123') {
         this.loggedIn = true;
         this.user = {
-          name: 'John Doe',
+          name: 'Mutiarahmi',
           email,
         };
 
